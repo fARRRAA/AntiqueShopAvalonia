@@ -55,6 +55,10 @@
               "target": "Package",
               "version": "[11.3.8, )"
             },
+            "Avalonia.Controls.DataGrid": {
+              "target": "Package",
+              "version": "[11.3.8, )"
+            },
             "Avalonia.Desktop": {
               "target": "Package",
               "version": "[11.3.8, )"
@@ -70,6 +74,20 @@
             "Avalonia.Themes.Fluent": {
               "target": "Package",
               "version": "[11.3.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.21, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.11, )"
             }
           },
           "imports": [
