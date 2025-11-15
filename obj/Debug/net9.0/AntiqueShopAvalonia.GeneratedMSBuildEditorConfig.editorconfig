@@ -15,14 +15,53 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AntiqueShopAvalonia
-build_property.ProjectDir = c:\Users\Ильдар\Desktop\Учеба\4-1\учебка\projects\AntiqueShopAvalonia\
+build_property.ProjectDir = C:\Users\Ильдар\Desktop\Учеба\4-1\учебка\projects\AntiqueShopAvalonia\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[c:/Users/Ильдар/Desktop/Учеба/4-1/учебка/projects/AntiqueShopAvalonia/App.axaml]
+[C:/Users/Ильдар/Desktop/Учеба/4-1/учебка/projects/AntiqueShopAvalonia/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[c:/Users/Ильдар/Desktop/Учеба/4-1/учебка/projects/AntiqueShopAvalonia/MainWindow.axaml]
+[C:/Users/Ильдар/Desktop/Учеба/4-1/учебка/projects/AntiqueShopAvalonia/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Ильдар/Desktop/Учеба/4-1/учебка/projects/AntiqueShopAvalonia/Pages/AdminPage/AdminPage.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Ильдар/Desktop/Учеба/4-1/учебка/projects/AntiqueShopAvalonia/Pages/AdminPage/AdminTabs/ClientsTab.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Ильдар/Desktop/Учеба/4-1/учебка/projects/AntiqueShopAvalonia/Pages/AdminPage/AdminTabs/ProductsTab.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Ильдар/Desktop/Учеба/4-1/учебка/projects/AntiqueShopAvalonia/Pages/AdminPage/AdminTabs/ReportsTab.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Ильдар/Desktop/Учеба/4-1/учебка/projects/AntiqueShopAvalonia/Pages/AdminPage/AdminTabs/ReturnsTab.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Ильдар/Desktop/Учеба/4-1/учебка/projects/AntiqueShopAvalonia/Pages/AdminPage/AdminTabs/SalesTab.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Ильдар/Desktop/Учеба/4-1/учебка/projects/AntiqueShopAvalonia/Pages/AdminPage/AdminTabs/UsersTab.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Ильдар/Desktop/Учеба/4-1/учебка/projects/AntiqueShopAvalonia/Pages/LoginPage.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Ильдар/Desktop/Учеба/4-1/учебка/projects/AntiqueShopAvalonia/Windows/AddOrEditClient.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Ильдар/Desktop/Учеба/4-1/учебка/projects/AntiqueShopAvalonia/Windows/AddOrEditProduct.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Ильдар/Desktop/Учеба/4-1/учебка/projects/AntiqueShopAvalonia/Windows/AddOrEditSale.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Ильдар/Desktop/Учеба/4-1/учебка/projects/AntiqueShopAvalonia/Windows/AddOrEditUser.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Ильдар/Desktop/Учеба/4-1/учебка/projects/AntiqueShopAvalonia/Windows/CheckProductsWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

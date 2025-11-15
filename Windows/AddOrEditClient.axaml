@@ -1,0 +1,53 @@
+<Window xmlns="https://github.com/avaloniaui"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		mc:Ignorable="d"
+		x:Class="AntiqueShopAvalonia.Windows.AddOrEditClient"
+		Title="Добавление/Редактирование клиента"
+		Width="850" Height="650"
+		WindowStartupLocation="CenterOwner">
+	<ScrollViewer>
+		<Grid Margin="20">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="*"/>
+			</Grid.ColumnDefinitions>
+
+			<StackPanel Grid.Column="0" Margin="0,20,20,0" Spacing="20">
+				<TextBlock Text="Фамилия" FontSize="16"/>
+				<TextBox Text="{Binding Lname, Mode=TwoWay}" Watermark="Введите фамилию" FontSize="16" Height="40"/>
+
+				<TextBlock Text="Имя" FontSize="16"/>
+				<TextBox Text="{Binding Fname, Mode=TwoWay}" Watermark="Введите имя" FontSize="16" Height="40"/>
+
+				<TextBlock Text="Отчество" FontSize="16"/>
+				<TextBox Text="{Binding Patronymic, Mode=TwoWay}" Watermark="Введите отчество" FontSize="16" Height="40"/>
+
+				<TextBlock Text="Номер телефона" FontSize="16"/>
+				<TextBox Text="{Binding Phone, Mode=TwoWay}" Watermark="Введите номер телефона" FontSize="16" Height="40" MaxLength="12"/>
+			</StackPanel>
+
+			<StackPanel Grid.Column="1" Margin="20,20,0,0" Spacing="20">
+				<TextBlock Text="Почта" FontSize="16"/>
+				<TextBox Text="{Binding Email, Mode=TwoWay}" Watermark="Введите почту" FontSize="16" Height="40"/>
+
+				<TextBlock Text="Серия и номер паспорта" FontSize="16"/>
+				<TextBox Text="{Binding PassportData, Mode=TwoWay}" Watermark="Введите данные" FontSize="16" Height="40" MaxLength="10"/>
+
+				<TextBlock Text="Номер банковской карты" FontSize="16"/>
+				<TextBox Text="{Binding BankDetail, Mode=TwoWay}" Watermark="Введите карту" FontSize="16" Height="40" MaxLength="16"/>
+			</StackPanel>
+
+			<StackPanel Grid.Column="0" Grid.ColumnSpan="2" 
+						Orientation="Horizontal" 
+						HorizontalAlignment="Center" 
+						Spacing="10" 
+						Margin="0,50,0,0">
+				<Button Name="CloseBtn" Content="Отмена" FontSize="15" Height="37" Width="128" Click="CloseBtn_Click"/>
+				<Button Name="ConfirmBtn" Content="Подтвердить" FontSize="15" Height="37" Width="128" Click="ConfirmBtn_Click"/>
+			</StackPanel>
+		</Grid>
+	</ScrollViewer>
+</Window>
+

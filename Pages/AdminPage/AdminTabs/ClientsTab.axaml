@@ -1,0 +1,55 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 xmlns:model="clr-namespace:AntiqueShopAvalonia.Model;assembly=AntiqueShopAvalonia"
+			 x:Class="AntiqueShopAvalonia.Pages.AdminPage.AdminTabs.ClientsTab"
+			 mc:Ignorable="d">
+	<StackPanel Background="White" Margin="15">
+		<StackPanel Margin="0,0,0,20">
+			<TextBox Name="ClientsSearchText"
+					 Watermark="Введите данные о клиенте"
+					 FontSize="16"
+					 Width="600"
+					 Margin="0,25,0,0"
+					 TextChanged="ClientsSearchText_TextChanged"/>
+		</StackPanel>
+
+		<DataGrid Name="ClientsList"
+				  AutoGenerateColumns="False"
+				  IsReadOnly="True"
+				  Height="624"
+				  Margin="0,25,0,0">
+			<DataGrid.Columns>
+				<DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="60"/>
+				<DataGridTextColumn Header="Фамилия" Binding="{Binding Lname}" Width="220"/>
+				<DataGridTextColumn Header="Имя" Binding="{Binding Fname}" Width="155"/>
+				<DataGridTextColumn Header="Отчество" Binding="{Binding Patronymic}" Width="150"/>
+				<DataGridTextColumn Header="Телефон" Binding="{Binding Phone}" Width="130"/>
+				<DataGridTextColumn Header="Пасс.данные" Binding="{Binding PassportData}" Width="150"/>
+				<DataGridTextColumn Header="Банк.данные" Binding="{Binding BankDetail}" Width="250"/>
+				<DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="150"/>
+				<DataGridTemplateColumn Header="Действия" Width="350">
+					<DataGridTemplateColumn.CellTemplate>
+						<DataTemplate x:DataType="model:Client">
+							<StackPanel Orientation="Horizontal" Spacing="5">
+								<Button Content="Редактировать" Tag="{Binding}" Click="EditClient_Click"/>
+								<Button Content="Удалить" Tag="{Binding}" Click="DeleteClient_Click"/>
+							</StackPanel>
+						</DataTemplate>
+					</DataGridTemplateColumn.CellTemplate>
+				</DataGridTemplateColumn>
+			</DataGrid.Columns>
+		</DataGrid>
+
+		<StackPanel Margin="0,20,0,0" Orientation="Horizontal" HorizontalAlignment="Right">
+			<TextBlock Name="ClientsCountText" Text="Всего клиентов: " Margin="0,4,0,0" VerticalAlignment="Center"/>
+			<StackPanel Orientation="Horizontal" Spacing="10" Margin="450,0,0,0">
+				<Button Name="DeleteClientBtn" Content="Удалить клиента" Margin="5" Click="DeleteClientBtn_Click"/>
+				<Button Name="EditClientBtn" Content="Отредактировать клиента" Margin="5" Click="EditClientBtn_Click"/>
+				<Button Name="AddClientBtn" Content="Добавить клиента" Margin="5" Click="AddClientBtn_Click"/>
+			</StackPanel>
+		</StackPanel>
+	</StackPanel>
+</UserControl>
+

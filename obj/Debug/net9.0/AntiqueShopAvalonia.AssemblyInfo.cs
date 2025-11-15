@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AntiqueShopAvalonia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+618caadf15fac25b9fd73909b93b96a2f4953791")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+188394aeaa525ddded40172f937c73eb59f82c28")]
 [assembly: System.Reflection.AssemblyProductAttribute("AntiqueShopAvalonia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AntiqueShopAvalonia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

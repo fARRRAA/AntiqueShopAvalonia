@@ -1,0 +1,64 @@
+<Window xmlns="https://github.com/avaloniaui"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:model="clr-namespace:AntiqueShopAvalonia.Model;assembly=AntiqueShopAvalonia"
+		mc:Ignorable="d"
+		x:Class="AntiqueShopAvalonia.Windows.CheckProductsWindow"
+		Title="Проверка товаров"
+		Width="600" Height="500"
+		WindowStartupLocation="CenterOwner"
+		>
+	<StackPanel Margin="20">
+		
+
+		<TextBlock Text="Товары с истекшим сроком хранения:" 
+				   FontSize="16" 
+				   FontWeight="Bold"
+				   Margin="0,0,0,10"/>
+
+		<TextBlock Text="Товар" FontSize="16" />
+		<ComboBox x:Name="ProductComboBox" 
+				  
+				  FontSize="16" 
+				  Height="40"
+				  Margin="0,5,0,20">
+			<ComboBox.ItemTemplate>
+				<DataTemplate x:DataType="model:Product">
+					<TextBlock Text="{Binding Name}"/>
+				</DataTemplate>
+			</ComboBox.ItemTemplate>
+		</ComboBox>
+
+		<TextBlock Text="Тип возврата" FontSize="16" />
+		<ComboBox x:Name="ReturnTypeComboBox" 
+				  
+				  FontSize="16" 
+				  Height="40"
+				  Margin="0,5,0,20">
+			<ComboBox.ItemTemplate>
+				<DataTemplate x:DataType="model:ReturnType">
+					<TextBlock Text="{Binding Name}"/>
+				</DataTemplate>
+			</ComboBox.ItemTemplate>
+		</ComboBox>
+
+		<TextBlock Text="Причина возврата" FontSize="16" />
+		<TextBox x:Name="ReasonTextBox"
+				 FontSize="16"
+				 Height="100"
+				 Margin="0,5,0,20"
+				 Watermark="Введите причину возврата"
+				 TextWrapping="Wrap"
+				 AcceptsReturn="True"/>
+
+		<StackPanel 
+					Orientation="Horizontal" 
+					HorizontalAlignment="Right"
+					Spacing="10">
+			<Button Name="CancelBtn" Content="Отмена" Width="100" Click="CancelBtn_Click"/>
+			<Button Name="CreateReturnBtn" Content="Создать возврат" Width="120" Click="CreateReturnBtn_Click"/>
+		</StackPanel>
+	</StackPanel>
+</Window>
+

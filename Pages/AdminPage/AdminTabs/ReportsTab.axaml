@@ -1,0 +1,119 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 x:Class="AntiqueShopAvalonia.Pages.AdminPage.AdminTabs.ReportsTab"
+			 mc:Ignorable="d">
+	<ScrollViewer>
+		<StackPanel Background="White" Margin="15">
+			<TextBlock Text="Финансовые отчеты" FontSize="20" FontWeight="Bold" Margin="0,0,0,20"/>
+			<StackPanel Spacing="15">
+				<Border BorderBrush="Gray" BorderThickness="1" Padding="15" CornerRadius="5">
+					<StackPanel Spacing="10">
+						<TextBlock Text="Отчет по продажам" FontSize="16" FontWeight="Bold"/>
+						<StackPanel Orientation="Horizontal" Spacing="10">
+							<DatePicker Name="SalesStartDate" Width="200" Margin="0,0,10,0"/>
+							<TextBlock Text="по" VerticalAlignment="Center"/>
+							<DatePicker Name="SalesEndDate" Width="200" Margin="10,0,10,0"/>
+							<Button Name="UpdateSalesReportBtn" Content="Обновить" Click="UpdateSalesReportBtn_Click"/>
+						</StackPanel>
+						<DataGrid Name="SalesReportGrid" AutoGenerateColumns="False" IsReadOnly="True" Height="200">
+							<DataGrid.Columns>
+								<DataGridTextColumn Header="Период" Binding="{Binding Period}" Width="150"/>
+								<DataGridTextColumn Header="Всего продаж" Binding="{Binding TotalSales}" Width="150"/>
+								<DataGridTextColumn Header="Доход магазина" Binding="{Binding ShopAmount}" Width="150"/>
+								<DataGridTextColumn Header="Выплаты клиентам" Binding="{Binding ClientAmount}" Width="150"/>
+							</DataGrid.Columns>
+						</DataGrid>
+					</StackPanel>
+				</Border>
+
+				<Border BorderBrush="Gray" BorderThickness="1" Padding="15" CornerRadius="5">
+					<StackPanel Spacing="10">
+						<TextBlock Text="Отчет по возвратам" FontSize="16" FontWeight="Bold"/>
+						<StackPanel Orientation="Horizontal" Spacing="10">
+							<DatePicker Name="ReturnsStartDate" Width="200" Margin="0,0,10,0"/>
+							<TextBlock Text="по" VerticalAlignment="Center"/>
+							<DatePicker Name="ReturnsEndDate" Width="200" Margin="10,0,10,0"/>
+							<Button Name="UpdateReturnsReportBtn" Content="Обновить" Click="UpdateReturnsReportBtn_Click"/>
+						</StackPanel>
+						<DataGrid Name="ReturnsReportGrid" AutoGenerateColumns="False" IsReadOnly="True" Height="200">
+							<DataGrid.Columns>
+								<DataGridTextColumn Header="Период" Binding="{Binding Period}" Width="150"/>
+								<DataGridTextColumn Header="Количество возвратов" Binding="{Binding Count}" Width="200"/>
+								<DataGridTextColumn Header="Сумма возвратов" Binding="{Binding Amount}" Width="150"/>
+							</DataGrid.Columns>
+						</DataGrid>
+					</StackPanel>
+				</Border>
+
+				<Border BorderBrush="Gray" BorderThickness="1" Padding="15" CornerRadius="5">
+					<StackPanel Spacing="10">
+						<TextBlock Text="Остатки товаров" FontSize="16" FontWeight="Bold"/>
+						<Button Name="UpdateInventoryReportBtn" Content="Обновить" HorizontalAlignment="Left" Click="UpdateInventoryReportBtn_Click"/>
+						<DataGrid Name="InventoryReportGrid" AutoGenerateColumns="False" IsReadOnly="True" Height="200">
+							<DataGrid.Columns>
+								<DataGridTextColumn Header="Категория" Binding="{Binding Category}" Width="200"/>
+								<DataGridTextColumn Header="Количество" Binding="{Binding Count}" Width="150"/>
+							</DataGrid.Columns>
+						</DataGrid>
+					</StackPanel>
+				</Border>
+				<Border BorderBrush="Gray" BorderThickness="1" Padding="15" CornerRadius="5">
+					<StackPanel Spacing="10">
+						<TextBlock Text="Отчет по выплатам" FontSize="16" FontWeight="Bold"/>
+
+						<StackPanel Orientation="Horizontal" Spacing="10">
+							<DatePicker Name="ShareStartDate" Width="200"/>
+							<TextBlock Text="по" VerticalAlignment="Center"/>
+							<DatePicker Name="ShareEndDate" Width="200"/>
+							<Button Name="UpdateShareChart" Content="Обновить" Click="UpdateShareChart_Click"/>
+						</StackPanel>
+
+						<DataGrid Name="ShareReportGrid"
+								  AutoGenerateColumns="False"
+								  IsReadOnly="True"
+								  Height="250">
+							<DataGrid.Columns>
+								<DataGridTextColumn Header="Период" Binding="{Binding Period}" Width="150"/>
+								<DataGridTextColumn Header="Выплаты клиентам" Binding="{Binding ClientAmount}" Width="180"/>
+								<DataGridTextColumn Header="Доход магазина" Binding="{Binding ShopAmount}" Width="180"/>
+								<DataGridTextColumn Header="Продаж за период" Binding="{Binding TotalSales}" Width="150"/>
+							</DataGrid.Columns>
+
+						</DataGrid>
+					</StackPanel>
+				</Border>
+				<Border BorderBrush="Gray" BorderThickness="1" Padding="15" CornerRadius="5">
+					<StackPanel Spacing="10">
+						<TextBlock Text="Отчет по выплатам" FontSize="16" FontWeight="Bold"/>
+
+						<StackPanel Orientation="Horizontal" Spacing="10">
+							<DatePicker Name="PaymentsStartDate" Width="200"/>
+							<TextBlock Text="по" VerticalAlignment="Center"/>
+							<DatePicker Name="PaymentsEndDate" Width="200"/>
+							<ComboBox Name="PaymentsPeriodType" Width="100">
+								<ComboBoxItem Content="По дням"/>
+								<ComboBoxItem Content="По месяцам"/>
+							</ComboBox>
+							<Button Name="UpdatePaymentsChart" Content="Обновить" Click="UpdatePaymentsChart_Click"/>
+						</StackPanel>
+
+						<DataGrid Name="PaymentsReportGrid"
+								  AutoGenerateColumns="False"
+								  IsReadOnly="True"
+								  Height="250">
+							<DataGrid.Columns>
+								<DataGridTextColumn Header="Период" Binding="{Binding Period}" Width="150"/>
+								<DataGridTextColumn Header="Выплаты клиентам" Binding="{Binding ClientAmount, StringFormat={}{0:F2}}" Width="180"/>
+								<DataGridTextColumn Header="Доход магазина" Binding="{Binding ShopAmount, StringFormat={}{0:F2}}" Width="180"/>
+								<DataGridTextColumn Header="Продаж за период" Binding="{Binding TotalSales}" Width="150"/>
+							</DataGrid.Columns>
+						</DataGrid>
+					</StackPanel>
+				</Border>
+			</StackPanel>
+		</StackPanel>
+	</ScrollViewer>
+</UserControl>
+

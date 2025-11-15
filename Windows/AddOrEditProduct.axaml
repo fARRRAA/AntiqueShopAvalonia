@@ -1,0 +1,73 @@
+<Window xmlns="https://github.com/avaloniaui"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:model="clr-namespace:AntiqueShopAvalonia.Model;assembly=AntiqueShopAvalonia"
+		mc:Ignorable="d"
+		x:Class="AntiqueShopAvalonia.Windows.AddOrEditProduct"
+		Title="Добавление/Редактирование товара"
+		Width="850" Height="750"
+		WindowStartupLocation="CenterOwner">
+	<ScrollViewer>
+		<Grid Margin="20">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="*"/>
+			</Grid.ColumnDefinitions>
+
+			<StackPanel Grid.Column="0" Margin="0,20,20,0" Spacing="20">
+				<TextBlock Text="Название" FontSize="16"/>
+				<TextBox Text="{Binding Name, Mode=TwoWay}" Watermark="Введите название" FontSize="16" Height="40"/>
+
+				<TextBlock Text="Категория" FontSize="16"/>
+				<ComboBox x:Name="CategoryComboBox" FontSize="16" Height="40">
+					<ComboBox.ItemTemplate>
+						<DataTemplate x:DataType="model:ProductType">
+							<TextBlock Text="{Binding Name}"/>
+						</DataTemplate>
+					</ComboBox.ItemTemplate>
+				</ComboBox>
+
+				<TextBlock Text="Цена" FontSize="16"/>
+				<TextBox Text="{Binding Price, Mode=TwoWay}" Watermark="Введите цену" FontSize="16" Height="40"/>
+
+				<TextBlock Text="Доля магазина (%)" FontSize="16"/>
+				<TextBox Text="{Binding ShopShare, Mode=TwoWay}" Watermark="Введите долю магазина" FontSize="16" Height="40"/>
+
+				<TextBlock Text="Дата приема" FontSize="16"/>
+				<DatePicker x:Name="ReceiptDatePicker" FontSize="16" Height="40"/>
+			</StackPanel>
+
+			<StackPanel Grid.Column="1" Margin="20,20,0,0" Spacing="20">
+				<TextBlock Text="Срок хранения (дней)" FontSize="16"/>
+				<TextBox Text="{Binding StoragePeriod, Mode=TwoWay}" Watermark="Введите срок хранения" FontSize="16" Height="40"/>
+
+				<TextBlock Text="Статус" FontSize="16"/>
+				<ComboBox x:Name="StatusComboBox" FontSize="16" Height="40">
+					<ComboBox.ItemTemplate>
+						<DataTemplate x:DataType="model:ProductStatus">
+							<TextBlock Text="{Binding Name}"/>
+						</DataTemplate>
+					</ComboBox.ItemTemplate>
+				</ComboBox>
+
+				<TextBlock Text="Описание" FontSize="16"/>
+				<TextBox Text="{Binding Description, Mode=TwoWay}" 
+						 Watermark="Введите описание" 
+						 FontSize="16" 
+						 Height="140"
+						 AcceptsReturn="True"
+						 TextWrapping="Wrap"/>
+
+				<StackPanel Orientation="Horizontal" 
+							HorizontalAlignment="Center" 
+							Spacing="10" 
+							Margin="0,50,0,0">
+					<Button Name="CloseBtn" Content="Отмена" FontSize="15" Height="37" Width="128" Click="CloseBtn_Click"/>
+					<Button Name="ConfirmBtn" Content="Подтвердить" FontSize="15" Height="37" Width="128" Click="ConfirmBtn_Click"/>
+				</StackPanel>
+			</StackPanel>
+		</Grid>
+	</ScrollViewer>
+</Window>
+
