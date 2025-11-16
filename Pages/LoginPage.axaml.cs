@@ -20,7 +20,9 @@ public partial class LoginPage : UserControl
 
     private async void LoginButton_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
-        ErrorText.IsVisible = false;
+        var errorContainer = this.FindControl<Border>("ErrorContainer");
+        if (errorContainer != null)
+            errorContainer.IsVisible = false;
         var login = LoginTextBox.Text?.Trim() ?? string.Empty;
         var password = PasswordTextBox.Text ?? string.Empty;
 
@@ -65,7 +67,9 @@ public partial class LoginPage : UserControl
     }
     private void ShowError(string message)
     {
+        var errorContainer = this.FindControl<Border>("ErrorContainer");
         ErrorText.Text = message;
-        ErrorText.IsVisible = true;
+        if (errorContainer != null)
+            errorContainer.IsVisible = true;
     }
 }

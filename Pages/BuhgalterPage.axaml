@@ -24,6 +24,8 @@ mc:Ignorable="d" Width="1400" Height="900">
 				Width="58" 
 				Height="50" 
 				Click="QuitBtn_Click"
-				Content="🚪"/>
+				Content="🚪"
+				Classes="DangerButton"
+				ToolTip.Tip="Выход из системы"/>
 	</Grid>
 </UserControl>

@@ -3,22 +3,91 @@
 			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 			 x:Class="AntiqueShopAvalonia.LoginPage"
-			 mc:Ignorable="d" Width="560" Height="460">
-	<Grid RowDefinitions="Auto,*,Auto">
-		<TextBlock Text="AntiqueShop - best offline Antique shop"
-				   FontSize="16" FontWeight="Bold" Margin="20,20,20,0"/>
+			 mc:Ignorable="d" Width="500" Height="600"
+			 Background="#F8F9FA">
+	<Grid RowDefinitions="*,Auto,*" ColumnDefinitions="*">
+		<Rectangle Grid.Row="0" Fill="Transparent"/>
 
-		<StackPanel Grid.Row="1" Spacing="8" Margin="20">
-			<TextBlock Text="Login"/>
-			<TextBox x:Name="LoginTextBox" Watermark="name-example"/>
+		<Border Grid.Row="1" 
+				Background="White" 
+				CornerRadius="12" 
 
-			<TextBlock Text="Password" Margin="0,8,0,0"/>
-			<TextBox x:Name="PasswordTextBox" PasswordChar="*"/>
+				Padding="40"
+				Width="380">
+			<StackPanel Spacing="24">
+				<StackPanel Spacing="8" HorizontalAlignment="Center">
+					<TextBlock Text="AntiqueShop" 
+							   FontSize="40" 
+							   FontWeight="Bold" 
+							   Foreground="#FF6B35"
+							   HorizontalAlignment="Center"/>
+					<TextBlock Text="Вход в систему" 
+							   FontSize="20" 
+							   Foreground="#666666"
+							   HorizontalAlignment="Center"/>
+				</StackPanel>
 
-			<Button x:Name="LoginButton" Content="Enter" Margin="0,16,0,0" HorizontalAlignment="Stretch" Click="LoginButton_Click"/>
-			<TextBlock x:Name="ErrorText" Foreground="Red" TextWrapping="Wrap" IsVisible="False"/>
-		</StackPanel>
+				<Rectangle Height="1" Fill="#E0E0E0"/>
 
-		<TextBlock Grid.Row="2" Text="@ AntiqueShop" HorizontalAlignment="Center" Margin="0,12,0,0" Opacity="0.7"/>
+				<StackPanel Spacing="8">
+					<TextBlock Text="Логин" 
+							   FontSize="16" 
+							   FontWeight="SemiBold" 
+							   Foreground="#2C3E50"/>
+					<TextBox x:Name="LoginTextBox" 
+							 Watermark="Введите логин" 
+							 Padding="12,10"
+							 FontSize="16"
+							 BorderThickness="1"
+							 BorderBrush="#E0E0E0"
+							 CornerRadius="6"
+							 Background="#FAFAFA"/>
+				</StackPanel>
+
+				<StackPanel Spacing="8">
+					<TextBlock Text="Пароль" 
+							   FontSize="16" 
+							   FontWeight="SemiBold" 
+							   Foreground="#2C3E50"/>
+					<TextBox x:Name="PasswordTextBox" 
+							 Watermark="Введите пароль"
+							 PasswordChar="*" 
+							 Padding="12,10"
+							 FontSize="16"
+							 BorderThickness="1"
+							 BorderBrush="#E0E0E0"
+							 CornerRadius="6"
+							 Background="#FAFAFA"/>
+				</StackPanel>
+
+				<Border Background="#FFE8E8" 
+						CornerRadius="6" 
+						Padding="12" 
+						IsVisible="False"
+						x:Name="ErrorContainer">
+					<TextBlock x:Name="ErrorText" 
+							   Foreground="#C0392B" 
+							   TextWrapping="Wrap"
+							   FontSize="16"/>
+				</Border>
+
+				<Button x:Name="LoginButton" 
+						Content="Вход" 
+						Click="LoginButton_Click"
+						Classes="PrimaryButton"
+						Padding="12,12"
+						FontSize="18"
+						HorizontalAlignment="Stretch"
+						HorizontalContentAlignment="Center"/>
+
+				<TextBlock Text="© AntiqueShop 2025" 
+						   FontSize="12" 
+						   Foreground="#999999"
+						   HorizontalAlignment="Center"
+						   Opacity="0.7"/>
+			</StackPanel>
+		</Border>
+
+		<Rectangle Grid.Row="2" Fill="Transparent"/>
 	</Grid>
 </UserControl>

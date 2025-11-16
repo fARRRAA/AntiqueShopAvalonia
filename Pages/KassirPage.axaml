@@ -13,15 +13,44 @@
 					<TextBlock Text="Главная" FontSize="16" VerticalAlignment="Center"/>
 				</StackPanel>
 			</TabItem.Header>
-			<StackPanel Background="White" Margin="20">
-				<TextBlock Text="Главная страница Комиссионного магазина" 
-						   TextWrapping="Wrap" 
-						   Margin="0,200,0,0" 
-						   FontWeight="Bold" 
-						   Foreground="DarkOrange" 
-						   FontSize="30" 
-						   HorizontalAlignment="Center" 
-						   TextAlignment="Center"/>
+			<StackPanel Background="#F8F9FA" Margin="20">
+				<Border Background="White" CornerRadius="12" Padding="40" Margin="0,100,0,0" BorderBrush="#004E89" BorderThickness="2">
+					<StackPanel Spacing="20" HorizontalAlignment="Center">
+						<TextBlock Text="🏪 Комиссионный магазин" 
+								   TextWrapping="Wrap" 
+								   FontWeight="Bold" 
+								   Foreground="#004E89" 
+								   FontSize="36" 
+								   HorizontalAlignment="Center" 
+								   TextAlignment="Center"/>
+						<TextBlock Text="Добро пожаловать в систему управления!" 
+								   TextWrapping="Wrap" 
+								   Foreground="#666666" 
+								   FontSize="16" 
+								   HorizontalAlignment="Center" 
+								   TextAlignment="Center"/>
+						<StackPanel Orientation="Horizontal" Spacing="20" HorizontalAlignment="Center" Margin="0,20,0,0">
+							<Border Background="#004E89" CornerRadius="8" Padding="20">
+								<StackPanel Spacing="5" HorizontalAlignment="Center">
+									<TextBlock Text="📦" FontSize="32" HorizontalAlignment="Center"/>
+									<TextBlock Text="Товары" FontWeight="Bold" Foreground="White" HorizontalAlignment="Center"/>
+								</StackPanel>
+							</Border>
+							<Border Background="#27AE60" CornerRadius="8" Padding="20">
+								<StackPanel Spacing="5" HorizontalAlignment="Center">
+									<TextBlock Text="💰" FontSize="32" HorizontalAlignment="Center"/>
+									<TextBlock Text="Продажи" FontWeight="Bold" Foreground="White" HorizontalAlignment="Center"/>
+								</StackPanel>
+							</Border>
+							<Border Background="#E74C3C" CornerRadius="8" Padding="20">
+								<StackPanel Spacing="5" HorizontalAlignment="Center">
+									<TextBlock Text="↩️" FontSize="32" HorizontalAlignment="Center"/>
+									<TextBlock Text="Возвраты" FontWeight="Bold" Foreground="White" HorizontalAlignment="Center"/>
+								</StackPanel>
+							</Border>
+						</StackPanel>
+					</StackPanel>
+				</Border>
 			</StackPanel>
 		</TabItem>
 		<TabItem>
@@ -64,6 +93,8 @@
 			Width="58" 
 			Height="50" 
 			Click="QuitBtn_Click"
-			Content="🚪"/>
+			Content="🚪"
+			Classes="DangerButton"
+			ToolTip.Tip="Выход из системы"/>
 </Grid>
 </UserControl>

@@ -9,41 +9,41 @@
 		Width="900" Height="650"
 		WindowStartupLocation="CenterOwner">
 	<ScrollViewer>
-		<Grid Margin="20">
+		<Grid Margin="20" Background="#F8F9FA">
 			<Grid.ColumnDefinitions>
 				<ColumnDefinition Width="*"/>
 				<ColumnDefinition Width="*"/>
 			</Grid.ColumnDefinitions>
 
 			<StackPanel Grid.Column="0" Margin="0,20,20,0" Spacing="20">
-				<TextBlock Text="Фамилия" FontSize="16"/>
-				<TextBox Name="LastNameTextBox" Watermark="Введите фамилию" FontSize="16" Height="40"/>
+				<TextBlock Text="👤 Фамилия" FontSize="16" FontWeight="Bold" Foreground="#004E89"/>
+				<TextBox Name="LastNameTextBox" Watermark="Введите фамилию" FontSize="16" Height="40" Background="White" BorderBrush="#E0E0E0" BorderThickness="2" CornerRadius="6" Padding="10,8"/>
 
-				<TextBlock Text="Имя" FontSize="16"/>
-				<TextBox Name="FirstNameTextBox" Watermark="Введите имя" FontSize="16" Height="40"/>
+				<TextBlock Text="📝 Имя" FontSize="16" FontWeight="Bold" Foreground="#004E89"/>
+				<TextBox Name="FirstNameTextBox" Watermark="Введите имя" FontSize="16" Height="40" Background="White" BorderBrush="#E0E0E0" BorderThickness="2" CornerRadius="6" Padding="10,8"/>
 
-				<TextBlock Text="Отчество" FontSize="16"/>
-				<TextBox Name="PatronymicTextBox" Watermark="Введите отчество" FontSize="16" Height="40"/>
+				<TextBlock Text="📋 Отчество" FontSize="16" FontWeight="Bold" Foreground="#004E89"/>
+				<TextBox Name="PatronymicTextBox" Watermark="Введите отчество" FontSize="16" Height="40" Background="White" BorderBrush="#E0E0E0" BorderThickness="2" CornerRadius="6" Padding="10,8"/>
 
-				<TextBlock Text="Дата рождения" FontSize="16"/>
-				<DatePicker Name="DateBirthPicker" FontSize="16" Height="40"/>
+				<TextBlock Text="🎂 Дата рождения" FontSize="16" FontWeight="Bold" Foreground="#004E89"/>
+				<DatePicker Name="DateBirthPicker" FontSize="16" Height="40" Background="White" BorderBrush="#E0E0E0" BorderThickness="2" CornerRadius="6"/>
 
-				<TextBlock Text="Номер телефона" FontSize="16"/>
-				<TextBox Name="PhoneTextBox" Watermark="Введите номер телефона" FontSize="16" Height="40" MaxLength="12"/>
+				<TextBlock Text="☎️ Номер телефона" FontSize="16" FontWeight="Bold" Foreground="#004E89"/>
+				<TextBox Name="PhoneTextBox" Watermark="Введите номер телефона" FontSize="16" Height="40" MaxLength="12" Background="White" BorderBrush="#E0E0E0" BorderThickness="2" CornerRadius="6" Padding="10,8"/>
 			</StackPanel>
 
 			<StackPanel Grid.Column="1" Margin="20,20,0,0" Spacing="20">
-				<TextBlock Text="Почта" FontSize="16"/>
-				<TextBox Name="EmailTextBox" Watermark="Введите почту" FontSize="16" Height="40"/>
+				<TextBlock Text="✉️ Почта" FontSize="16" FontWeight="Bold" Foreground="#004E89"/>
+				<TextBox Name="EmailTextBox" Watermark="Введите почту" FontSize="16" Height="40" Background="White" BorderBrush="#E0E0E0" BorderThickness="2" CornerRadius="6" Padding="10,8"/>
 
-				<TextBlock Text="Логин" FontSize="16"/>
-				<TextBox Name="LoginTextBox" Watermark="Введите логин" FontSize="16" Height="40"/>
+				<TextBlock Text="🔐 Логин" FontSize="16" FontWeight="Bold" Foreground="#004E89"/>
+				<TextBox Name="LoginTextBox" Watermark="Введите логин" FontSize="16" Height="40" Background="White" BorderBrush="#E0E0E0" BorderThickness="2" CornerRadius="6" Padding="10,8"/>
 
-				<TextBlock Text="Пароль" FontSize="16"/>
-				<TextBox Name="PasswordTextBox" Watermark="Введите пароль" FontSize="16" Height="40" PasswordChar="*"/>
+				<TextBlock Text="🔑 Пароль" FontSize="16" FontWeight="Bold" Foreground="#004E89"/>
+				<TextBox Name="PasswordTextBox" Watermark="Введите пароль" FontSize="16" Height="40" PasswordChar="*" Background="White" BorderBrush="#E0E0E0" BorderThickness="2" CornerRadius="6" Padding="10,8"/>
 
-				<TextBlock Text="Роль" FontSize="16" Margin="0,00,0,0"/>
-				<ComboBox Name="RoleComboBox" FontSize="16" Height="40">
+				<TextBlock Text="🎭 Роль" FontSize="16" FontWeight="Bold" Foreground="#004E89" Margin="0,00,0,0"/>
+				<ComboBox Name="RoleComboBox" FontSize="16" Height="40" Background="White" BorderBrush="#E0E0E0" BorderThickness="2" CornerRadius="6" Padding="10,8">
 					<ComboBox.ItemTemplate>
 						<DataTemplate x:DataType="model:Role">
 							<TextBlock Text="{Binding Name}"/>
@@ -57,8 +57,8 @@
 						HorizontalAlignment="Right" 
 						Spacing="10" 
 						Margin="0,500,0,0">
-				<Button Name="CloseBtn" Content="Отмена" FontSize="15" Height="37" Width="128" Click="CloseBtn_Click"/>
-				<Button Name="ConfirmBtn" Content="Подтвердить" FontSize="15" Height="37" Width="128" Click="ConfirmBtn_Click"/>
+				<Button Name="CloseBtn" Content="❌ Отмена" FontSize="15" Height="37" Width="128" Click="CloseBtn_Click" Classes="DangerButton"/>
+				<Button Name="ConfirmBtn" Content="✅ Подтвердить" FontSize="15" Height="37" Width="128" Click="ConfirmBtn_Click" Classes="SuccessButton"/>
 			</StackPanel>
 		</Grid>
 	</ScrollViewer>

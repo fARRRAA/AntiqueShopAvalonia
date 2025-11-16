@@ -5,14 +5,19 @@
 			 xmlns:model="clr-namespace:AntiqueShopAvalonia.Model;assembly=AntiqueShopAvalonia"
 			 x:Class="AntiqueShopAvalonia.Pages.AdminPage.AdminTabs.SalesTab"
 			 mc:Ignorable="d">
-	<StackPanel Background="White" Margin="15">
+	<StackPanel Background="#F8F9FA" Margin="15">
 		<StackPanel Margin="0,0,0,20">
 			<TextBox Name="SalesSearchText"
-					 Watermark="Введите данные о продаже"
+					 Watermark="🔍 Введите данные о продаже"
 					 FontSize="16"
 					 Width="600"
 					 Margin="0,25,0,0"
-					 TextChanged="SalesSearchText_TextChanged"/>
+					 TextChanged="SalesSearchText_TextChanged"
+					 Background="White"
+					 BorderBrush="#E0E0E0"
+					 BorderThickness="2"
+					 CornerRadius="6"
+					 Padding="10,8"/>
 		</StackPanel>
 
 		<DataGrid Name="SalesList"
@@ -21,9 +26,9 @@
 				  Height="624"
 				  Margin="0,25,0,0">
 			<DataGrid.Columns>
-				<DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="60"/>
-				<DataGridTextColumn Header="Товар" Binding="{Binding Product.Name}" Width="200"/>
-				<DataGridTemplateColumn Header="Клиент" Width="150">
+				<DataGridTextColumn Header="🆔 ID" Binding="{Binding Id}" Width="60"/>
+				<DataGridTextColumn Header="📦 Товар" Binding="{Binding Product.Name}" Width="200"/>
+				<DataGridTemplateColumn Header="👤 Клиент" Width="150">
 					<DataGridTemplateColumn.CellTemplate>
 						<DataTemplate x:DataType="model:Sale">
 							<TextBlock>
@@ -34,17 +39,17 @@
 						</DataTemplate>
 					</DataGridTemplateColumn.CellTemplate>
 				</DataGridTemplateColumn>
-				<DataGridTextColumn Header="Цена" Binding="{Binding Product.Price}" Width="100"/>
-				<DataGridTextColumn Header="Доля магазина" Binding="{Binding ShopAmount}" Width="120"/>
-				<DataGridTextColumn Header="Выплата клиенту" Binding="{Binding ClientAmount}" Width="150"/>
-				<DataGridTextColumn Header="Способ оплаты" Binding="{Binding PayMethod.Name}" Width="150"/>
-				<DataGridTextColumn Header="Дата продажи" Binding="{Binding SaleDate, StringFormat='{}{0:dd.MM.yyyy}'}" Width="120"/>
-				<DataGridTemplateColumn Header="Действия" Width="350">
+				<DataGridTextColumn Header="💰 Цена" Binding="{Binding Product.Price}" Width="100"/>
+				<DataGridTextColumn Header="🏪 Доля магазина" Binding="{Binding ShopAmount}" Width="120"/>
+				<DataGridTextColumn Header="💵 Выплата клиенту" Binding="{Binding ClientAmount}" Width="150"/>
+				<DataGridTextColumn Header="💳 Способ оплаты" Binding="{Binding PayMethod.Name}" Width="150"/>
+				<DataGridTextColumn Header="📅 Дата продажи" Binding="{Binding SaleDate, StringFormat='{}{0:dd.MM.yyyy}'}" Width="120"/>
+				<DataGridTemplateColumn Header="⚙️ Действия" Width="350">
 					<DataGridTemplateColumn.CellTemplate>
 						<DataTemplate x:DataType="model:Sale">
 							<StackPanel Orientation="Horizontal" Spacing="5">
-								<Button Content="Редактировать" Tag="{Binding}" Click="EditSale_Click"/>
-								<Button Content="Удалить" Tag="{Binding}" Click="DeleteSale_Click"/>
+								<Button Content="✏️ Редактировать" Tag="{Binding}" Click="EditSale_Click" Classes="InfoButton"/>
+								<Button Content="🗑️ Удалить" Tag="{Binding}" Click="DeleteSale_Click" Classes="DangerButton"/>
 							</StackPanel>
 						</DataTemplate>
 					</DataGridTemplateColumn.CellTemplate>
@@ -53,12 +58,12 @@
 		</DataGrid>
 
 		<StackPanel Margin="0,20,0,0" Orientation="Horizontal" HorizontalAlignment="Right">
-			<TextBlock Name="SalesCountText" Text="Всего продаж: " Margin="0,4,0,0" VerticalAlignment="Center"/>
+			<TextBlock Name="SalesCountText" Text="💰 Всего продаж: " Margin="0,4,0,0" VerticalAlignment="Center" FontWeight="Bold" FontSize="14"/>
 			<StackPanel Orientation="Horizontal" Spacing="10" Margin="450,0,0,0">
-				<Button Name="PrintReceiptBtn" Content="Печать чека" Margin="5" Click="PrintReceiptBtn_Click"/>
-				<Button Name="DeleteSaleBtn" Content="Удалить продажу" Margin="5" Click="DeleteSaleBtn_Click"/>
-				<Button Name="EditSaleBtn" Content="Редактировать продажу" Margin="5" Click="EditSaleBtn_Click"/>
-				<Button Name="AddSaleBtn" Content="Добавить продажу" Margin="5" Click="AddSaleBtn_Click"/>
+				<Button Name="PrintReceiptBtn" Content="🖨️ Печать чека" Margin="5" Click="PrintReceiptBtn_Click" Classes="PrimaryButton"/>
+				<Button Name="DeleteSaleBtn" Content="🗑️ Удалить" Margin="5" Click="DeleteSaleBtn_Click" Classes="DangerButton"/>
+				<Button Name="EditSaleBtn" Content="✏️ Редактировать" Margin="5" Click="EditSaleBtn_Click" Classes="WarningButton"/>
+				<Button Name="AddSaleBtn" Content="➕ Добавить" Margin="5" Click="AddSaleBtn_Click" Classes="SuccessButton"/>
 			</StackPanel>
 		</StackPanel>
 	</StackPanel>

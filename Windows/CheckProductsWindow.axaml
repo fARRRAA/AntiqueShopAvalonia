@@ -9,20 +9,26 @@
 		Width="600" Height="500"
 		WindowStartupLocation="CenterOwner"
 		>
-	<StackPanel Margin="20">
+	<StackPanel Margin="20" Background="#F8F9FA">
 		
 
-		<TextBlock Text="Товары с истекшим сроком хранения:" 
+		<TextBlock Text="⏰ Товары с истекшим сроком хранения:" 
 				   FontSize="16" 
 				   FontWeight="Bold"
+				   Foreground="#004E89"
 				   Margin="0,0,0,10"/>
 
-		<TextBlock Text="Товар" FontSize="16" />
+		<TextBlock Text="📦 Товар" FontSize="16" FontWeight="Bold" Foreground="#004E89"/>
 		<ComboBox x:Name="ProductComboBox" 
 				  
 				  FontSize="16" 
 				  Height="40"
-				  Margin="0,5,0,20">
+				  Margin="0,5,0,20"
+				  Background="White" 
+				  BorderBrush="#E0E0E0" 
+				  BorderThickness="2" 
+				  CornerRadius="6" 
+				  Padding="10,8">
 			<ComboBox.ItemTemplate>
 				<DataTemplate x:DataType="model:Product">
 					<TextBlock Text="{Binding Name}"/>
@@ -30,12 +36,17 @@
 			</ComboBox.ItemTemplate>
 		</ComboBox>
 
-		<TextBlock Text="Тип возврата" FontSize="16" />
+		<TextBlock Text="↩️ Тип возврата" FontSize="16" FontWeight="Bold" Foreground="#004E89"/>
 		<ComboBox x:Name="ReturnTypeComboBox" 
 				  
 				  FontSize="16" 
 				  Height="40"
-				  Margin="0,5,0,20">
+				  Margin="0,5,0,20"
+				  Background="White" 
+				  BorderBrush="#E0E0E0" 
+				  BorderThickness="2" 
+				  CornerRadius="6" 
+				  Padding="10,8">
 			<ComboBox.ItemTemplate>
 				<DataTemplate x:DataType="model:ReturnType">
 					<TextBlock Text="{Binding Name}"/>
@@ -43,21 +54,26 @@
 			</ComboBox.ItemTemplate>
 		</ComboBox>
 
-		<TextBlock Text="Причина возврата" FontSize="16" />
+		<TextBlock Text="📝 Причина возврата" FontSize="16" FontWeight="Bold" Foreground="#004E89"/>
 		<TextBox x:Name="ReasonTextBox"
 				 FontSize="16"
 				 Height="100"
 				 Margin="0,5,0,20"
 				 Watermark="Введите причину возврата"
 				 TextWrapping="Wrap"
-				 AcceptsReturn="True"/>
+				 AcceptsReturn="True"
+				 Background="White" 
+				 BorderBrush="#E0E0E0" 
+				 BorderThickness="2" 
+				 CornerRadius="6" 
+				 Padding="10,8"/>
 
 		<StackPanel 
 					Orientation="Horizontal" 
 					HorizontalAlignment="Right"
 					Spacing="10">
-			<Button Name="CancelBtn" Content="Отмена" Width="100" Click="CancelBtn_Click"/>
-			<Button Name="CreateReturnBtn" Content="Создать возврат" Width="120" Click="CreateReturnBtn_Click"/>
+			<Button Name="CancelBtn" Content="❌ Отмена" Width="100" Click="CancelBtn_Click" Classes="DangerButton"/>
+			<Button Name="CreateReturnBtn" Content="✅ Создать возврат" Width="120" Click="CreateReturnBtn_Click" Classes="SuccessButton"/>
 		</StackPanel>
 	</StackPanel>
 </Window>

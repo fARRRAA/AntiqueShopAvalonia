@@ -5,14 +5,19 @@
 			 xmlns:model="clr-namespace:AntiqueShopAvalonia.Model;assembly=AntiqueShopAvalonia"
 			 x:Class="AntiqueShopAvalonia.Pages.AdminPage.AdminTabs.ProductsTab"
 			 mc:Ignorable="d">
-	<StackPanel Background="White" Margin="15">
+	<StackPanel Background="#F8F9FA" Margin="15">
 		<StackPanel Margin="0,0,0,20">
 			<TextBox Name="ProductsSearchText"
-					 Watermark="Введите данные о товаре"
+					 Watermark="🔍 Введите данные о товаре"
 					 FontSize="16"
 					 Width="600"
 					 Margin="0,25,0,0"
-					 TextChanged="ProductsSearchText_TextChanged"/>
+					 TextChanged="ProductsSearchText_TextChanged"
+					 Background="White"
+					 BorderBrush="#E0E0E0"
+					 BorderThickness="2"
+					 CornerRadius="6"
+					 Padding="10,8"/>
 		</StackPanel>
 
 		<DataGrid Name="ProductsList"
@@ -21,20 +26,20 @@
 				  Height="624"
 				  Margin="0,25,0,0">
 			<DataGrid.Columns>
-				<DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="60"/>
-				<DataGridTextColumn Header="Название" Binding="{Binding Name}" Width="200"/>
-				<DataGridTextColumn Header="Категория" Binding="{Binding Category.Name}" Width="150"/>
-				<DataGridTextColumn Header="Цена" Binding="{Binding Price}" Width="100"/>
-				<DataGridTextColumn Header="Доля магазина" Binding="{Binding ShopShare}" Width="100"/>
-				<DataGridTextColumn Header="Дата приема" Binding="{Binding ReceiptDate, StringFormat='{}{0:dd.MM.yyyy}'}" Width="120"/>
-				<DataGridTextColumn Header="Срок хранения" Binding="{Binding StoragePeriod}" Width="120"/>
-				<DataGridTextColumn Header="Статус" Binding="{Binding Status.Name}" Width="120"/>
-				<DataGridTemplateColumn Header="Действия" Width="350">
+				<DataGridTextColumn Header="🆔 ID" Binding="{Binding Id}" Width="60"/>
+				<DataGridTextColumn Header="📚 Название" Binding="{Binding Name}" Width="200"/>
+				<DataGridTextColumn Header="📂 Категория" Binding="{Binding Category.Name}" Width="150"/>
+				<DataGridTextColumn Header="💰 Цена" Binding="{Binding Price}" Width="100"/>
+				<DataGridTextColumn Header="🏪 Доля магазина" Binding="{Binding ShopShare}" Width="100"/>
+				<DataGridTextColumn Header="📅 Дата приема" Binding="{Binding ReceiptDate, StringFormat='{}{0:dd.MM.yyyy}'}" Width="120"/>
+				<DataGridTextColumn Header="⏱️ Срок хранения" Binding="{Binding StoragePeriod}" Width="120"/>
+				<DataGridTextColumn Header="📊 Статус" Binding="{Binding Status.Name}" Width="120"/>
+				<DataGridTemplateColumn Header="⚙️ Действия" Width="350">
 					<DataGridTemplateColumn.CellTemplate>
 						<DataTemplate x:DataType="model:Product">
 							<StackPanel Orientation="Horizontal" Spacing="5">
-								<Button Content="Редактировать" Tag="{Binding}" Click="EditProduct_Click"/>
-								<Button Content="Удалить" Tag="{Binding}" Click="DeleteProduct_Click"/>
+								<Button Content="✏️ Редактировать" Tag="{Binding}" Click="EditProduct_Click" Classes="InfoButton"/>
+								<Button Content="🗑️ Удалить" Tag="{Binding}" Click="DeleteProduct_Click" Classes="DangerButton"/>
 							</StackPanel>
 						</DataTemplate>
 					</DataGridTemplateColumn.CellTemplate>
@@ -43,13 +48,13 @@
 		</DataGrid>
 
 		<StackPanel Margin="0,20,0,0" Orientation="Horizontal" HorizontalAlignment="Right">
-			<TextBlock Name="ProductsCountText" Text="Всего товаров: " Margin="0,4,0,0" VerticalAlignment="Center"/>
+			<TextBlock Name="ProductsCountText" Text="📦 Всего товаров: " Margin="0,4,0,0" VerticalAlignment="Center" FontWeight="Bold" FontSize="14"/>
 			<StackPanel Orientation="Horizontal" Spacing="10" Margin="350,0,0,0">
-				<Button Name="PrintSinglePriceTagBtn" Content="Печать ценника" Margin="5" Click="PrintSinglePriceTagBtn_Click"/>
-				<Button Name="PrintAllPriceTagsBtn" Content="Печать всех ценников" Margin="5" Click="PrintAllPriceTagsBtn_Click"/>
-				<Button Name="DeleteProductBtn" Content="Удалить товар" Margin="5" Click="DeleteProductBtn_Click"/>
-				<Button Name="EditProductBtn" Content="Редактировать товар" Margin="5" Click="EditProductBtn_Click"/>
-				<Button Name="AddProductBtn" Content="Добавить товар" Margin="5" Click="AddProductBtn_Click"/>
+				<Button Name="PrintSinglePriceTagBtn" Content="🖨️ Печать ценника" Margin="5" Click="PrintSinglePriceTagBtn_Click" Classes="PrimaryButton"/>
+				<Button Name="PrintAllPriceTagsBtn" Content="🖨️ Печать всех" Margin="5" Click="PrintAllPriceTagsBtn_Click" Classes="PrimaryButton"/>
+				<Button Name="DeleteProductBtn" Content="🗑️ Удалить" Margin="5" Click="DeleteProductBtn_Click" Classes="DangerButton"/>
+				<Button Name="EditProductBtn" Content="✏️ Редактировать" Margin="5" Click="EditProductBtn_Click" Classes="WarningButton"/>
+				<Button Name="AddProductBtn" Content="➕ Добавить" Margin="5" Click="AddProductBtn_Click" Classes="SuccessButton"/>
 			</StackPanel>
 		</StackPanel>
 	</StackPanel>

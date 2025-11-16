@@ -6,14 +6,19 @@
 			 x:Class="AntiqueShopAvalonia.Pages.AdminPage.AdminTabs.UsersTab"
 			 mc:Ignorable="d">
 
-	<StackPanel Background="White" Margin="15">
+	<StackPanel Background="#F8F9FA" Margin="15">
 		<StackPanel Margin="0,0,0,20">
 			<TextBox Name="UsersSearchText"
-					 Watermark="Введите данные о работнике"
+					 Watermark="🔍 Введите данные о работнике"
 					 FontSize="16"
 					 Width="600"
 					 Margin="0,25,0,0"
-					 TextChanged="UsersSearchText_TextChanged"/>
+					 TextChanged="UsersSearchText_TextChanged"
+					 Background="White"
+					 BorderBrush="#E0E0E0"
+					 BorderThickness="2"
+					 CornerRadius="6"
+					 Padding="10,8"/>
 		</StackPanel>
 
 		<DataGrid Name="UsersList"
@@ -22,21 +27,21 @@
 				  Height="624"
 				  Margin="0,25,0,0">
 			<DataGrid.Columns>
-				<DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="60"/>
-				<DataGridTextColumn Header="Фамилия" Binding="{Binding Lname}" Width="200"/>
-				<DataGridTextColumn Header="Имя" Binding="{Binding Fname}" Width="150"/>
-				<DataGridTextColumn Header="Отчество" Binding="{Binding Patronymic}" Width="150"/>
-				<DataGridTextColumn Header="Телефон" Binding="{Binding Phone}" Width="130"/>
-				<DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="150"/>
-				<DataGridTextColumn Header="Роль" Binding="{Binding Role.Name}" Width="120"/>
-				<DataGridCheckBoxColumn Header="Активен" Binding="{Binding IsActive}" Width="100"/>
+				<DataGridTextColumn Header="🆔 ID" Binding="{Binding Id}" Width="60"/>
+				<DataGridTextColumn Header="👤 Фамилия" Binding="{Binding Lname}" Width="200"/>
+				<DataGridTextColumn Header="📝 Имя" Binding="{Binding Fname}" Width="150"/>
+				<DataGridTextColumn Header="📋 Отчество" Binding="{Binding Patronymic}" Width="150"/>
+				<DataGridTextColumn Header="☎️ Телефон" Binding="{Binding Phone}" Width="130"/>
+				<DataGridTextColumn Header="✉️ Email" Binding="{Binding Email}" Width="150"/>
+				<DataGridTextColumn Header="🎭 Роль" Binding="{Binding Role.Name}" Width="120"/>
+				<DataGridCheckBoxColumn Header="✅ Активен" Binding="{Binding IsActive}" Width="100"/>
 
-				<DataGridTemplateColumn Header="Действия" Width="350">
+				<DataGridTemplateColumn Header="⚙️ Действия" Width="350">
 					<DataGridTemplateColumn.CellTemplate>
 						<DataTemplate x:DataType="model:User">
 							<StackPanel Orientation="Horizontal" Spacing="5">
-								<Button Content="Редактировать" Tag="{Binding}" Click="EditUser_Click"/>
-								<Button Content="Удалить" Tag="{Binding}" Click="DeleteUser_Click"/>
+								<Button Content="✏️ Редактировать" Tag="{Binding}" Click="EditUser_Click" Classes="InfoButton"/>
+								<Button Content="🗑️ Удалить" Tag="{Binding}" Click="DeleteUser_Click" Classes="DangerButton"/>
 							</StackPanel>
 						</DataTemplate>
 					</DataGridTemplateColumn.CellTemplate>
@@ -45,12 +50,12 @@
 		</DataGrid>
 
 		<StackPanel Margin="0,20,0,0" Orientation="Horizontal" HorizontalAlignment="Right">
-			<TextBlock Name="UsersCountText" Text="Всего работников: " Margin="0,4,0,0" VerticalAlignment="Center"/>
+			<TextBlock Name="UsersCountText" Text="👥 Всего работников: " Margin="0,4,0,0" VerticalAlignment="Center" FontWeight="Bold" FontSize="14"/>
 
 			<StackPanel Orientation="Horizontal" Spacing="10" Margin="450,0,0,0">
-				<Button Name="DeleteUserBtn" Content="Удалить работника" Margin="5" Click="DeleteUserBtn_Click"/>
-				<Button Name="EditUserBtn" Content="Редактировать работника" Margin="5" Click="EditUserBtn_Click"/>
-				<Button Name="AddUserBtn" Content="Добавить работника" Margin="5" Click="AddUserBtn_Click"/>
+				<Button Name="DeleteUserBtn" Content="🗑️ Удалить" Margin="5" Click="DeleteUserBtn_Click" Classes="DangerButton"/>
+				<Button Name="EditUserBtn" Content="✏️ Редактировать" Margin="5" Click="EditUserBtn_Click" Classes="WarningButton"/>
+				<Button Name="AddUserBtn" Content="➕ Добавить" Margin="5" Click="AddUserBtn_Click" Classes="SuccessButton"/>
 			</StackPanel>
 		</StackPanel>
 	</StackPanel>

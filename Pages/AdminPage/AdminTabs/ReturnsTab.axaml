@@ -5,14 +5,19 @@
 			 xmlns:model="clr-namespace:AntiqueShopAvalonia.Model;assembly=AntiqueShopAvalonia"
 			 x:Class="AntiqueShopAvalonia.Pages.AdminPage.AdminTabs.ReturnsTab"
 			 mc:Ignorable="d">
-	<StackPanel Background="White" Margin="15">
+	<StackPanel Background="#F8F9FA" Margin="15">
 		<StackPanel Margin="0,0,0,20">
 			<TextBox Name="ReturnsSearchText"
-					 Watermark="Введите данные о возврате"
+					 Watermark="🔍 Введите данные о возврате"
 					 FontSize="16"
 					 Width="600"
 					 Margin="0,25,0,0"
-					 TextChanged="ReturnsSearchText_TextChanged"/>
+					 TextChanged="ReturnsSearchText_TextChanged"
+					 Background="White"
+					 BorderBrush="#E0E0E0"
+					 BorderThickness="2"
+					 CornerRadius="6"
+					 Padding="10,8"/>
 		</StackPanel>
 
 		<DataGrid Name="ReturnsList"
@@ -21,19 +26,19 @@
 				  Height="624"
 				  Margin="0,25,0,0">
 			<DataGrid.Columns>
-				<DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="60"/>
-				<DataGridTextColumn Header="Товар" Binding="{Binding Product.Name}" Width="200"/>
-				<DataGridTextColumn Header="Дата возврата" Binding="{Binding ReturnDate, StringFormat='{}{0:dd.MM.yyyy}'}" Width="120"/>
-				<DataGridTextColumn Header="Тип возврата" Binding="{Binding ReturnType.Name}" Width="150"/>
-				<DataGridTextColumn Header="Причина" Binding="{Binding Reason}" Width="300"/>
+				<DataGridTextColumn Header="🆔 ID" Binding="{Binding Id}" Width="60"/>
+				<DataGridTextColumn Header="📦 Товар" Binding="{Binding Product.Name}" Width="200"/>
+				<DataGridTextColumn Header="📅 Дата возврата" Binding="{Binding ReturnDate, StringFormat='{}{0:dd.MM.yyyy}'}" Width="120"/>
+				<DataGridTextColumn Header="↩️ Тип возврата" Binding="{Binding ReturnType.Name}" Width="150"/>
+				<DataGridTextColumn Header="📝 Причина" Binding="{Binding Reason}" Width="300"/>
 			</DataGrid.Columns>
 		</DataGrid>
 
 		<StackPanel Margin="0,20,0,0" Orientation="Horizontal" HorizontalAlignment="Right">
-			<TextBlock Name="ReturnsCountText" Text="Всего возвратов: " Margin="0,4,0,0" VerticalAlignment="Center"/>
+			<TextBlock Name="ReturnsCountText" Text="↩️ Всего возвратов: " Margin="0,4,0,0" VerticalAlignment="Center" FontWeight="Bold" FontSize="14"/>
 			<StackPanel Orientation="Horizontal" Spacing="10" Margin="730,0,0,0">
-				<Button Name="PrintReturnActBtn" Content="Печать акта" Margin="5" Click="PrintReturnActBtn_Click"/>
-				<Button Name="CheckProductsBtn" Content="Проверить товары" Margin="5" Click="CheckProductsBtn_Click"/>
+				<Button Name="PrintReturnActBtn" Content="🖨️ Печать акта" Margin="5" Click="PrintReturnActBtn_Click" Classes="PrimaryButton"/>
+				<Button Name="CheckProductsBtn" Content="✅ Проверить товары" Margin="5" Click="CheckProductsBtn_Click" Classes="SuccessButton"/>
 			</StackPanel>
 		</StackPanel>
 	</StackPanel>

@@ -60,6 +60,9 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [C:/Users/Ильдар/Desktop/Учеба/4-1/учебка/projects/AntiqueShopAvalonia/Pages/ManagerPage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[C:/Users/Ильдар/Desktop/Учеба/4-1/учебка/projects/AntiqueShopAvalonia/Styles.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Users/Ильдар/Desktop/Учеба/4-1/учебка/projects/AntiqueShopAvalonia/Windows/AddOrEditClient.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
