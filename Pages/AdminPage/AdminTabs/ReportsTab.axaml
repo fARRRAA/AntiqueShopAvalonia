@@ -61,7 +61,7 @@
 				</Border>
 				<Border BorderBrush="Gray" BorderThickness="1" Padding="15" CornerRadius="5">
 					<StackPanel Spacing="10">
-						<TextBlock Text="Отчет по выплатам" FontSize="16" FontWeight="Bold"/>
+						<TextBlock Text="Отчет по долям магазина" FontSize="16" FontWeight="Bold"/>
 
 						<StackPanel Orientation="Horizontal" Spacing="10">
 							<DatePicker Name="ShareStartDate" Width="200"/>
@@ -116,4 +116,5 @@
 		</StackPanel>
 	</ScrollViewer>
 </UserControl>
+
 

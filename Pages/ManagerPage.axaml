@@ -1,0 +1,79 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+
+			 x:Class="AntiqueShopAvalonia.ManagerPage"
+			 mc:Ignorable="d" Width="1400" Height="900">
+	<Grid>
+		<TabControl TabStripPlacement="Left">
+			<TabItem>
+				<TabItem.Header>
+					<StackPanel Orientation="Horizontal" Spacing="8">
+						<TextBlock Text="🏠" FontSize="20"/>
+						<TextBlock Text="Главная" FontSize="16" VerticalAlignment="Center"/>
+					</StackPanel>
+				</TabItem.Header>
+				<StackPanel Background="White" Margin="20">
+					<TextBlock Text="Главная страница Комиссионного магазина"
+							   TextWrapping="Wrap"
+							   Margin="0,200,0,0"
+							   FontWeight="Bold"
+							   Foreground="DarkOrange"
+							   FontSize="30"
+							   HorizontalAlignment="Center"
+							   TextAlignment="Center"/>
+				</StackPanel>
+			</TabItem>
+
+			<TabItem>
+				<TabItem.Header>
+					<StackPanel Orientation="Horizontal" Spacing="8">
+						<TextBlock Text="👤" FontSize="20"/>
+						<TextBlock Text="Работники" FontSize="16" VerticalAlignment="Center"/>
+					</StackPanel>
+				</TabItem.Header>
+				<ContentControl x:Name="UsersTabContent"/>
+			</TabItem>
+			<TabItem>
+				<TabItem.Header>
+					<StackPanel Orientation="Horizontal" Spacing="8">
+						<TextBlock Text="📦" FontSize="20"/>
+						<TextBlock Text="Товары" FontSize="16" VerticalAlignment="Center"/>
+					</StackPanel>
+				</TabItem.Header>
+				<ContentControl x:Name="ProductsTabContent"/>
+			</TabItem>
+
+			<TabItem>
+				<TabItem.Header>
+					<StackPanel Orientation="Horizontal" Spacing="8">
+						<TextBlock Text="💰" FontSize="20"/>
+						<TextBlock Text="Продажи" FontSize="16" VerticalAlignment="Center"/>
+					</StackPanel>
+				</TabItem.Header>
+				<ContentControl x:Name="SalesTabContent"/>
+			</TabItem>
+
+			<TabItem>
+				<TabItem.Header>
+					<StackPanel Orientation="Horizontal" Spacing="8">
+						<TextBlock Text="↩️" FontSize="20"/>
+						<TextBlock Text="Возвраты" FontSize="16" VerticalAlignment="Center"/>
+					</StackPanel>
+				</TabItem.Header>
+				<ContentControl x:Name="ReturnsTabContent"/>
+			</TabItem>
+
+
+			</TabControl>
+					<Button x:Name="QuitBtn"
+					HorizontalAlignment="Left"
+					Margin="14,799,0,0"
+					VerticalAlignment="Top"
+					Width="58"
+					Height="50"
+					Click="QuitBtn_Click"
+					Content="🚪"/>
+		</Grid>
+</UserControl>

@@ -48,7 +48,16 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [C:/Users/Ильдар/Desktop/Учеба/4-1/учебка/projects/AntiqueShopAvalonia/Pages/AdminPage/AdminTabs/UsersTab.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[C:/Users/Ильдар/Desktop/Учеба/4-1/учебка/projects/AntiqueShopAvalonia/Pages/BuhgalterPage.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Ильдар/Desktop/Учеба/4-1/учебка/projects/AntiqueShopAvalonia/Pages/KassirPage.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Users/Ильдар/Desktop/Учеба/4-1/учебка/projects/AntiqueShopAvalonia/Pages/LoginPage.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Ильдар/Desktop/Учеба/4-1/учебка/projects/AntiqueShopAvalonia/Pages/ManagerPage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/Ильдар/Desktop/Учеба/4-1/учебка/projects/AntiqueShopAvalonia/Windows/AddOrEditClient.axaml]

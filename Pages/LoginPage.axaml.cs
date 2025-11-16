@@ -2,6 +2,7 @@
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
+using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -13,25 +14,25 @@ public partial class LoginPage : UserControl
     {
 
         InitializeComponent();
-        EmailTextBox.Text = "ivan.admin@example.com";
+        LoginTextBox.Text = "admin";
         PasswordTextBox.Text = "123";
     }
 
     private async void LoginButton_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
         ErrorText.IsVisible = false;
-        var email = EmailTextBox.Text?.Trim() ?? string.Empty;
+        var login = LoginTextBox.Text?.Trim() ?? string.Empty;
         var password = PasswordTextBox.Text ?? string.Empty;
 
-        if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password))
+        if (string.IsNullOrWhiteSpace(login) || string.IsNullOrWhiteSpace(password))
         {
-            ShowError("write email and adress");
+            ShowError("write login and adress");
             return;
         }
 
         using var db = new AppDbContext();
         var user = await Task.Run(() =>
-            db.Users.FirstOrDefault(u => u.Email == email && u.Password == password));
+            db.Users.Include(x=>x.Role).FirstOrDefault(u => u.Login == login && u.Password == password));
 
         if (user is null)
         {
@@ -45,22 +46,21 @@ public partial class LoginPage : UserControl
             parentWindow.Navigate(new LoginPage(), "AntiqueShop");
 
         }
-
-        //var isTeacher = await Task.Run(() => db.CourseTeachers.Any(ct => ct.TeacherId == user.Id));
-        //if (isTeacher)
-        //{
-        //    parentWindow.Navigate(new TeacherPage(user.Id, Logout), "EduTrack � �������������");
-
-        //    return;
-        //}
-
-        //var isStudent = await Task.Run(() => db.CourseEnrollments.Any(ce => ce.StudentId == user.Id));
-        //if (isStudent)
-        //{
-        //    parentWindow.Navigate(new StudentPage(user.Id, Logout), "EduTrack � �������");
-        //    return;
-        //}
-
+        if (user.Role.Name == "Менеджер")
+        {
+            parentWindow.Navigate(new ManagerPage(user.Id, Logout), "AntiqueShop - Manager");
+            return;
+        }
+        if (user.Role.Name == "Кассир")
+        {
+            parentWindow.Navigate(new KassirPage(user.Id, Logout), "AntiqueShop - Cashier");
+            return;
+        }
+        if (user.Role.Name == "Бухгалтер")
+        {
+            parentWindow.Navigate(new KassirPage(user.Id, Logout), "AntiqueShop - Accountant");
+            return;
+        }
         parentWindow.Navigate(new AdminPage(user.Id, Logout), "AntiqueShop - Admin");
     }
     private void ShowError(string message)

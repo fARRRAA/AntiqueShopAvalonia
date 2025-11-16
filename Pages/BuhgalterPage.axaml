@@ -1,0 +1,29 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             x:Class="AntiqueShopAvalonia.BuhgalterPage"
+mc:Ignorable="d" Width="1400" Height="900">
+	<Grid>
+		<TabControl TabStripPlacement="Left">
+			<TabItem>
+				<TabItem.Header>
+					<StackPanel Orientation="Horizontal" Spacing="8">
+						<TextBlock Text="📊" FontSize="20"/>
+						<TextBlock Text="Фин.Отчеты" FontSize="16" VerticalAlignment="Center"/>
+					</StackPanel>
+				</TabItem.Header>
+				<ContentControl x:Name="ReportsTabContent"/>
+			</TabItem>
+		</TabControl>
+
+		<Button x:Name="QuitBtn" 
+				HorizontalAlignment="Left" 
+				Margin="14,799,0,0" 
+				VerticalAlignment="Top" 
+				Width="58" 
+				Height="50" 
+				Click="QuitBtn_Click"
+				Content="🚪"/>
+	</Grid>
+</UserControl>

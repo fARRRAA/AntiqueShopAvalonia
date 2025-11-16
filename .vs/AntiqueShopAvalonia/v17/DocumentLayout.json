@@ -3,12 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|c:\\users\\\u0438\u043B\u044C\u0434\u0430\u0440\\desktop\\\u0443\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\antiqueshopavalonia\\pages\\adminpage\\admintabs\\reportstab.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|solutionrelative:pages\\adminpage\\admintabs\\reportstab.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|c:\\users\\\u0438\u043B\u044C\u0434\u0430\u0440\\desktop\\\u0443\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\antiqueshopavalonia\\pages\\loginpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|solutionrelative:pages\\loginpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|c:\\users\\\u0438\u043B\u044C\u0434\u0430\u0440\\desktop\\\u0443\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\antiqueshopavalonia\\pages\\loginpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|solutionrelative:pages\\loginpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|c:\\users\\\u0438\u043B\u044C\u0434\u0430\u0440\\desktop\\\u0443\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\antiqueshopavalonia\\pages\\kassirpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|solutionrelative:pages\\kassirpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|c:\\users\\\u0438\u043B\u044C\u0434\u0430\u0440\\desktop\\\u0443\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\antiqueshopavalonia\\pages\\managerpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|solutionrelative:pages\\managerpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|c:\\users\\\u0438\u043B\u044C\u0434\u0430\u0440\\desktop\\\u0443\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\antiqueshopavalonia\\pages\\kassirpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|solutionrelative:pages\\kassirpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|c:\\users\\\u0438\u043B\u044C\u0434\u0430\u0440\\desktop\\\u0443\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\antiqueshopavalonia\\pages\\buhgalterpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|solutionrelative:pages\\buhgalterpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|c:\\users\\\u0438\u043B\u044C\u0434\u0430\u0440\\desktop\\\u0443\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\antiqueshopavalonia\\pages\\managerpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|solutionrelative:pages\\managerpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|c:\\users\\\u0438\u043B\u044C\u0434\u0430\u0440\\desktop\\\u0443\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\antiqueshopavalonia\\pages\\buhgalterpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|solutionrelative:pages\\buhgalterpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|c:\\users\\\u0438\u043B\u044C\u0434\u0430\u0440\\desktop\\\u0443\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\antiqueshopavalonia\\pages\\adminpage\\admintabs\\reportstab.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|solutionrelative:pages\\adminpage\\admintabs\\reportstab.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|c:\\users\\\u0438\u043B\u044C\u0434\u0430\u0440\\desktop\\\u0443\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\antiqueshopavalonia\\pages\\adminpage\\admintabs\\reportstab.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|solutionrelative:pages\\adminpage\\admintabs\\reportstab.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|c:\\users\\\u0438\u043B\u044C\u0434\u0430\u0440\\desktop\\\u0443\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\antiqueshopavalonia\\windows\\addoredituser.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -94,10 +126,6 @@
       "RelativeMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|solutionrelative:model\\userextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|c:\\users\\\u0438\u043B\u044C\u0434\u0430\u0440\\desktop\\\u0443\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\antiqueshopavalonia\\pages\\loginpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|solutionrelative:pages\\loginpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|c:\\users\\\u0438\u043B\u044C\u0434\u0430\u0440\\desktop\\\u0443\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\antiqueshopavalonia\\windows\\addoreditclient.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|solutionrelative:windows\\addoreditclient.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
@@ -106,20 +134,8 @@
       "RelativeMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|solutionrelative:model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|c:\\users\\\u0438\u043B\u044C\u0434\u0430\u0440\\desktop\\\u0443\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\antiqueshopavalonia\\pages\\adminpage\\adminpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|solutionrelative:pages\\adminpage\\adminpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|c:\\users\\\u0438\u043B\u044C\u0434\u0430\u0440\\desktop\\\u0443\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\antiqueshopavalonia\\pages\\adminpage\\adminpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|solutionrelative:pages\\adminpage\\adminpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|c:\\users\\\u0438\u043B\u044C\u0434\u0430\u0440\\desktop\\\u0443\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\antiqueshopavalonia\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|solutionrelative:mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|c:\\users\\\u0438\u043B\u044C\u0434\u0430\u0440\\desktop\\\u0443\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\antiqueshopavalonia\\pages\\loginpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|solutionrelative:pages\\loginpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|c:\\users\\\u0438\u043B\u044C\u0434\u0430\u0440\\desktop\\\u0443\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\antiqueshopavalonia\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -160,14 +176,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|c:\\users\\\u0438\u043B\u044C\u0434\u0430\u0440\\desktop\\\u0443\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\antiqueshopavalonia\\app.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|solutionrelative:app.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|c:\\users\\\u0438\u043B\u044C\u0434\u0430\u0440\\desktop\\\u0443\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\antiqueshopavalonia\\mssql.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|solutionrelative:mssql.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|c:\\users\\\u0438\u043B\u044C\u0434\u0430\u0440\\desktop\\\u0443\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\antiqueshopavalonia\\ms.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{7D390F23-8949-46D2-A8C2-FA55C44B49E4}|AntiqueShopAvalonia.csproj|solutionrelative:ms.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -177,7 +185,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 318,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -213,19 +221,107 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UsersTab.axaml",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\AdminPage\\AdminTabs\\UsersTab.axaml",
-              "RelativeDocumentMoniker": "Pages\\AdminPage\\AdminTabs\\UsersTab.axaml",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\AdminPage\\AdminTabs\\UsersTab.axaml",
-              "RelativeToolTip": "Pages\\AdminPage\\AdminTabs\\UsersTab.axaml",
+              "DocumentIndex": 3,
+              "Title": "ManagerPage.axaml",
+              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\ManagerPage.axaml",
+              "RelativeDocumentMoniker": "Pages\\ManagerPage.axaml",
+              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\ManagerPage.axaml",
+              "RelativeToolTip": "Pages\\ManagerPage.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-15T14:25:26.719Z",
+              "WhenOpened": "2025-11-16T10:27:44.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KassirPage.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\KassirPage.axaml.cs",
+              "RelativeDocumentMoniker": "Pages\\KassirPage.axaml.cs",
+              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\KassirPage.axaml.cs",
+              "RelativeToolTip": "Pages\\KassirPage.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T10:27:31.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BuhgalterPage.axaml",
+              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\BuhgalterPage.axaml",
+              "RelativeDocumentMoniker": "Pages\\BuhgalterPage.axaml",
+              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\BuhgalterPage.axaml",
+              "RelativeToolTip": "Pages\\BuhgalterPage.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-16T10:27:22.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BuhgalterPage.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\BuhgalterPage.axaml.cs",
+              "RelativeDocumentMoniker": "Pages\\BuhgalterPage.axaml.cs",
+              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\BuhgalterPage.axaml.cs",
+              "RelativeToolTip": "Pages\\BuhgalterPage.axaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T10:27:20.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ManagerPage.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\ManagerPage.axaml.cs",
+              "RelativeDocumentMoniker": "Pages\\ManagerPage.axaml.cs",
+              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\ManagerPage.axaml.cs",
+              "RelativeToolTip": "Pages\\ManagerPage.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T10:27:44.237Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "KassirPage.axaml",
+              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\KassirPage.axaml",
+              "RelativeDocumentMoniker": "Pages\\KassirPage.axaml",
+              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\KassirPage.axaml",
+              "RelativeToolTip": "Pages\\KassirPage.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-16T10:27:31.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginPage.axaml",
+              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\LoginPage.axaml",
+              "RelativeDocumentMoniker": "Pages\\LoginPage.axaml",
+              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\LoginPage.axaml",
+              "RelativeToolTip": "Pages\\LoginPage.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-15T13:58:11.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginPage.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\LoginPage.axaml.cs",
+              "RelativeDocumentMoniker": "Pages\\LoginPage.axaml.cs",
+              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\LoginPage.axaml.cs",
+              "RelativeToolTip": "Pages\\LoginPage.axaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwDUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T13:58:11.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "ReturnsTab.axaml.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\AdminPage\\AdminTabs\\ReturnsTab.axaml.cs",
               "RelativeDocumentMoniker": "Pages\\AdminPage\\AdminTabs\\ReturnsTab.axaml.cs",
@@ -233,12 +329,22 @@
               "RelativeToolTip": "Pages\\AdminPage\\AdminTabs\\ReturnsTab.axaml.cs",
               "ViewState": "AgIAAIsAAAAAAAAAAAD4v4EAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T15:40:32.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T15:40:32.887Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 19,
+              "Title": "UsersTab.axaml",
+              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\AdminPage\\AdminTabs\\UsersTab.axaml",
+              "RelativeDocumentMoniker": "Pages\\AdminPage\\AdminTabs\\UsersTab.axaml",
+              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\AdminPage\\AdminTabs\\UsersTab.axaml",
+              "RelativeToolTip": "Pages\\AdminPage\\AdminTabs\\UsersTab.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-15T14:25:26.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ProductsTab.axaml.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\AdminPage\\AdminTabs\\ProductsTab.axaml.cs",
               "RelativeDocumentMoniker": "Pages\\AdminPage\\AdminTabs\\ProductsTab.axaml.cs",
@@ -246,36 +352,33 @@
               "RelativeToolTip": "Pages\\AdminPage\\AdminTabs\\ProductsTab.axaml.cs",
               "ViewState": "AgIAALMAAAAAAAAAAAAAwMMAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T17:24:14.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T17:24:14.744Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "CheckProductsWindow.axaml",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Windows\\CheckProductsWindow.axaml",
               "RelativeDocumentMoniker": "Windows\\CheckProductsWindow.axaml",
               "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Windows\\CheckProductsWindow.axaml",
               "RelativeToolTip": "Windows\\CheckProductsWindow.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-15T15:40:11.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T15:40:11.188Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "AddOrEditUser.axaml",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Windows\\AddOrEditUser.axaml",
               "RelativeDocumentMoniker": "Windows\\AddOrEditUser.axaml",
               "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Windows\\AddOrEditUser.axaml",
               "RelativeToolTip": "Windows\\AddOrEditUser.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-15T14:25:20.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T14:25:20.305Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "AddOrEditUser.axaml.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Windows\\AddOrEditUser.axaml.cs",
               "RelativeDocumentMoniker": "Windows\\AddOrEditUser.axaml.cs",
@@ -283,12 +386,11 @@
               "RelativeToolTip": "Windows\\AddOrEditUser.axaml.cs",
               "ViewState": "AgIAAGUAAAAAAAAAAAAAAHAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T14:23:22.625Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T14:23:22.625Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "ReportsTab.axaml",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\AdminPage\\AdminTabs\\ReportsTab.axaml",
               "RelativeDocumentMoniker": "Pages\\AdminPage\\AdminTabs\\ReportsTab.axaml",
@@ -300,44 +402,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "ReportsTab.axaml.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\AdminPage\\AdminTabs\\ReportsTab.axaml.cs",
               "RelativeDocumentMoniker": "Pages\\AdminPage\\AdminTabs\\ReportsTab.axaml.cs",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\AdminPage\\AdminTabs\\ReportsTab.axaml.cs*",
-              "RelativeToolTip": "Pages\\AdminPage\\AdminTabs\\ReportsTab.axaml.cs*",
+              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\AdminPage\\AdminTabs\\ReportsTab.axaml.cs",
+              "RelativeToolTip": "Pages\\AdminPage\\AdminTabs\\ReportsTab.axaml.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAhwDIAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T15:03:08.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T15:03:08.094Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "AddOrEditSale.axaml",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Windows\\AddOrEditSale.axaml",
               "RelativeDocumentMoniker": "Windows\\AddOrEditSale.axaml",
               "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Windows\\AddOrEditSale.axaml",
               "RelativeToolTip": "Windows\\AddOrEditSale.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-15T15:04:50.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T15:04:50.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "SalesTab.axaml",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\AdminPage\\AdminTabs\\SalesTab.axaml",
               "RelativeDocumentMoniker": "Pages\\AdminPage\\AdminTabs\\SalesTab.axaml",
               "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\AdminPage\\AdminTabs\\SalesTab.axaml",
               "RelativeToolTip": "Pages\\AdminPage\\AdminTabs\\SalesTab.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-15T17:30:52.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T17:30:52.151Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "CustomFontResolver.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Fonts\\CustomFontResolver.cs",
               "RelativeDocumentMoniker": "Fonts\\CustomFontResolver.cs",
@@ -345,12 +444,11 @@
               "RelativeToolTip": "Fonts\\CustomFontResolver.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T17:38:04.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T17:38:04.636Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "OpenTypeFontFace.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\AppData\\Local\\Temp\\.vsdbgsrc\\cef96afa1b54194ff88687efce630c2d040a054985c0caa3d774f11f329a15dc\\OpenTypeFontFace.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\cef96afa1b54194ff88687efce630c2d040a054985c0caa3d774f11f329a15dc\\OpenTypeFontFace.cs",
@@ -363,7 +461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "SalesTab.axaml.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\AdminPage\\AdminTabs\\SalesTab.axaml.cs",
               "RelativeDocumentMoniker": "Pages\\AdminPage\\AdminTabs\\SalesTab.axaml.cs",
@@ -371,48 +469,44 @@
               "RelativeToolTip": "Pages\\AdminPage\\AdminTabs\\SalesTab.axaml.cs",
               "ViewState": "AgIAAOwAAAAAAAAAAAApwNEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T17:24:51.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T17:24:51.539Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "MainWindow.axaml",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\MainWindow.axaml",
               "RelativeDocumentMoniker": "MainWindow.axaml",
               "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\MainWindow.axaml",
               "RelativeToolTip": "MainWindow.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-15T14:05:15.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T14:05:15.911Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "App.axaml",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\App.axaml",
               "RelativeDocumentMoniker": "App.axaml",
               "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\App.axaml",
               "RelativeToolTip": "App.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-15T14:36:28.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T14:36:28.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "ReturnsTab.axaml",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\AdminPage\\AdminTabs\\ReturnsTab.axaml",
               "RelativeDocumentMoniker": "Pages\\AdminPage\\AdminTabs\\ReturnsTab.axaml",
               "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\AdminPage\\AdminTabs\\ReturnsTab.axaml",
               "RelativeToolTip": "Pages\\AdminPage\\AdminTabs\\ReturnsTab.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-15T15:40:15.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T15:40:15.831Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "AntiqueShopAvalonia.csproj",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\AntiqueShopAvalonia.csproj",
               "RelativeDocumentMoniker": "AntiqueShopAvalonia.csproj",
@@ -420,37 +514,22 @@
               "RelativeToolTip": "AntiqueShopAvalonia.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-11T11:06:42.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T11:06:42.924Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "AdminPage.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\AdminPage\\AdminPage.axaml.cs",
-              "RelativeDocumentMoniker": "Pages\\AdminPage\\AdminPage.axaml.cs",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\AdminPage\\AdminPage.axaml.cs",
-              "RelativeToolTip": "Pages\\AdminPage\\AdminPage.axaml.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAtwC0AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T14:06:57.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "ProductsTab.axaml",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\AdminPage\\AdminTabs\\ProductsTab.axaml",
               "RelativeDocumentMoniker": "Pages\\AdminPage\\AdminTabs\\ProductsTab.axaml",
               "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\AdminPage\\AdminTabs\\ProductsTab.axaml",
               "RelativeToolTip": "Pages\\AdminPage\\AdminTabs\\ProductsTab.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-15T15:05:42.468Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T15:05:42.468Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 30,
               "Title": "UserExtensions.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Model\\UserExtensions.cs",
               "RelativeDocumentMoniker": "Model\\UserExtensions.cs",
@@ -458,12 +537,11 @@
               "RelativeToolTip": "Model\\UserExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T15:06:02.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T15:06:02.704Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "UsersTab.axaml.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\AdminPage\\AdminTabs\\UsersTab.axaml.cs",
               "RelativeDocumentMoniker": "Pages\\AdminPage\\AdminTabs\\UsersTab.axaml.cs",
@@ -471,12 +549,11 @@
               "RelativeToolTip": "Pages\\AdminPage\\AdminTabs\\UsersTab.axaml.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAkwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T14:25:34.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T14:25:34.656Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "AddOrEditProduct.axaml.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Windows\\AddOrEditProduct.axaml.cs",
               "RelativeDocumentMoniker": "Windows\\AddOrEditProduct.axaml.cs",
@@ -489,7 +566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "ProductExtensions.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Model\\ProductExtensions.cs",
               "RelativeDocumentMoniker": "Model\\ProductExtensions.cs",
@@ -497,49 +574,33 @@
               "RelativeToolTip": "Model\\ProductExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T15:29:21.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T15:29:21.825Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "AddOrEditProduct.axaml",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Windows\\AddOrEditProduct.axaml",
               "RelativeDocumentMoniker": "Windows\\AddOrEditProduct.axaml",
               "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Windows\\AddOrEditProduct.axaml",
               "RelativeToolTip": "Windows\\AddOrEditProduct.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-15T15:30:35.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T15:30:35.349Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "LoginPage.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\LoginPage.axaml.cs",
-              "RelativeDocumentMoniker": "Pages\\LoginPage.axaml.cs",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\LoginPage.axaml.cs",
-              "RelativeToolTip": "Pages\\LoginPage.axaml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAADgvyEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:58:11.628Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 31,
               "Title": "AddOrEditClient.axaml",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Windows\\AddOrEditClient.axaml",
               "RelativeDocumentMoniker": "Windows\\AddOrEditClient.axaml",
               "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Windows\\AddOrEditClient.axaml",
               "RelativeToolTip": "Windows\\AddOrEditClient.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-15T15:06:21.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T15:06:21.557Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 32,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Model\\User.cs",
               "RelativeDocumentMoniker": "Model\\User.cs",
@@ -547,24 +608,11 @@
               "RelativeToolTip": "Model\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T14:32:01.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T14:32:01.015Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "AdminPage.axaml",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\AdminPage\\AdminPage.axaml",
-              "RelativeDocumentMoniker": "Pages\\AdminPage\\AdminPage.axaml",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\AdminPage\\AdminPage.axaml",
-              "RelativeToolTip": "Pages\\AdminPage\\AdminPage.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-15T14:06:57.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "MainWindow.axaml.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\MainWindow.axaml.cs",
               "RelativeDocumentMoniker": "MainWindow.axaml.cs",
@@ -572,24 +620,11 @@
               "RelativeToolTip": "MainWindow.axaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T11:04:50.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T11:04:50.457Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "LoginPage.axaml",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\LoginPage.axaml",
-              "RelativeDocumentMoniker": "Pages\\LoginPage.axaml",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Pages\\LoginPage.axaml",
-              "RelativeToolTip": "Pages\\LoginPage.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-15T13:58:11.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "Sale.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Model\\Sale.cs",
               "RelativeDocumentMoniker": "Model\\Sale.cs",
@@ -597,12 +632,11 @@
               "RelativeToolTip": "Model\\Sale.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:45:35.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:45:35.546Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -610,24 +644,22 @@
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAAO0AAAAAAAAAAADgv/0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T11:19:28.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T11:19:28.007Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "mssql.sql ",
+              "DocumentIndex": 38,
+              "Title": "mssql.sql",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\mssql.sql",
               "RelativeDocumentMoniker": "mssql.sql",
               "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\mssql.sql",
               "RelativeToolTip": "mssql.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002897|",
-              "WhenOpened": "2025-11-11T11:04:52.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T11:04:52.708Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -635,12 +667,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T11:04:52.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T11:04:52.849Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": ".gitattributes",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\.gitattributes",
               "RelativeDocumentMoniker": ".gitattributes",
@@ -648,24 +679,22 @@
               "RelativeToolTip": ".gitattributes",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001407|",
-              "WhenOpened": "2025-11-11T11:18:12.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T11:18:12.07Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "ms.sql ",
+              "DocumentIndex": 39,
+              "Title": "ms.sql",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\ms.sql",
               "RelativeDocumentMoniker": "ms.sql",
               "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\ms.sql",
               "RelativeToolTip": "ms.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002897|",
-              "WhenOpened": "2025-11-11T11:04:52.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T11:04:52.009Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 40,
               "Title": "MainWindow.axaml",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\MainWindow.axaml",
               "RelativeDocumentMoniker": "MainWindow.axaml",
@@ -673,12 +702,11 @@
               "RelativeToolTip": "MainWindow.axaml",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-11T11:04:50.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T11:04:50.437Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 41,
               "Title": "app.manifest",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\app.manifest",
               "RelativeDocumentMoniker": "app.manifest",
@@ -686,12 +714,11 @@
               "RelativeToolTip": "app.manifest",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001793|",
-              "WhenOpened": "2025-11-11T11:04:50.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T11:04:50.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 42,
               "Title": "App.axaml.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\App.axaml.cs",
               "RelativeDocumentMoniker": "App.axaml.cs",
@@ -699,12 +726,11 @@
               "RelativeToolTip": "App.axaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T11:04:49.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T11:04:49.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 43,
               "Title": "App.axaml",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u0434\u0430\u0440\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\4-1\\\u0443\u0447\u0435\u0431\u043A\u0430\\projects\\AntiqueShopAvalonia\\App.axaml",
               "RelativeDocumentMoniker": "App.axaml",
@@ -712,8 +738,7 @@
               "RelativeToolTip": "App.axaml",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-11T11:04:49.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T11:04:49.354Z"
             }
           ]
         },
